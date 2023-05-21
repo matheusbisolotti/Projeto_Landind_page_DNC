@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+#logo{
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    margin-top: 32px;
+    margin-left: 36px;
+}
+
+#tit_menu_sup{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+#txt_menu_sup{
+    margin-left: 150px;
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+
+#menu_sup{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menu_info{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+#menu_dep{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.txt_info{
+    display: flex;
+    align-items: center;
+}
+
+#tit_vid{
+    color: #247BA0;
+    margin: 50px 25px 0px 100px;
+}
+
+#txt_video{
+    margin: 10px 25px 50px 100px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#menu_carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#tit_carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-e{
+    display: none;
+}
+
+#bru{
+    display: none;
+}
+
+.seta{
+    margin-top: 155%;
+    cursor: pointer;
+}
+
+#seta-d:hover{
+    transform: translateX(7px);
+    transition-duration: 0.5s;
+}
+
+#seta-e:hover{
+    transform: translateX(-7px);
+    transition-duration: 0.5s;
+}
+
+#sec_form{
+    text-align: center;
+}
+
+#tit-form{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    background-color: #EAECE5;
+    margin: 10px;
+    border: 0px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 35px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5ab5db;
+    transition-duration: 0.5s;
+}
